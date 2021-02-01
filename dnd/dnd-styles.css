@@ -93,6 +93,13 @@ li {
     margin-left: 0px;
 }
 
+.infobox {
+    border: 1px solid #F0F0F0;
+    background-color: #F8F8F8;
+    padding: 10px;
+
+}
+
 @media only screen and (max-width: 850px) {
 	.item_section {
         width: 100%;
