@@ -101,8 +101,45 @@ li {
         padding-right: 0;
     }
 
+    .menu_section {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        
+    }
+
+    .menu_container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-flow: space-evenly;
+        align-items: top;
+        width: 100%;
+    }
+
     td {
         padding: 15px;
         font-size: 120%;
+    }
+
+    .page_container {
+        width: 100%;
+    }
+
+    ul {
+        line-height: 265%;
+        padding-left: 0px;
+    }
+
+    li {
+        border: 1px solid #C0C0C0;
+        display: block;
+        text-align: center;
+        margin: 10px;
+    }
+
+    li a {
+        text-decoration: none;
+        display: block;
     }
 }
