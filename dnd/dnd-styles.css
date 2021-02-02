@@ -22,7 +22,8 @@ li { list-style: none; margin-left: 0px; }
 .special_item_name { font-size: 120%; font-weight: bold; margin-bottom: 5px; color: black; }
 .page_heading { width: 90%; margin-left: auto; margin-right: auto; border-bottom: 2px solid #C0C0C0; }
 .full_width { width: 100%; }
-
+.qr_code { float: right;}
+.qr_code img { width: 120px; height: 120px; } 
 @media only screen and (max-width: 850px) {	
  .item_section { width: 100%; margin: 0; padding-left: 0; padding-right: 0; }
  .menu_section { padding-left: 0; padding-right: 0; width: 100%; }
@@ -35,4 +36,5 @@ li { list-style: none; margin-left: 0px; }
  .page_heading { width: 100%; }
  .special_item { width: 100%; }
  .full_width .special_item { width: 100%; }
+ .qr_code { display: none; }
 }
