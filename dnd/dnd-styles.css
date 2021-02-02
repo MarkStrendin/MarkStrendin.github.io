@@ -24,6 +24,8 @@ li { list-style: none; margin-left: 0px; }
 .full_width { width: 100%; }
 .qr_code { float: right;}
 .qr_code img { width: 120px; height: 120px; } 
+.reference { font-size: 80%; margin-top: 10px; }
+
 @media only screen and (max-width: 850px) {	
  .item_section { width: 100%; margin: 0; padding-left: 0; padding-right: 0; }
  .menu_section { padding-left: 0; padding-right: 0; width: 100%; }
