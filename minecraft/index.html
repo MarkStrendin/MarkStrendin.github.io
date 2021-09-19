@@ -18,7 +18,7 @@
 <body style="background: url(bg.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
 	<div style="width: 800px; margin: 50px auto; background-color: rgba(255,255,255,0.85); padding: 25px; border-radius: 5px; padding-top: 5px;">
 <h1>Ridley's Pack</h1>
-<b><a href="RidleyPack10-2-10.2.zip">Click to download modpack profile (v10.2 - Aug  4, 2021)</a></b>
+<b><a href="RidleyPack 11-1.0.zip">Click to download modpack profile (v11.0 - September 18, 2021)</a></b>
 <br/><br/>
 <h3>How to Import this modpack</h3>
 <ol>
@@ -47,6 +47,10 @@
 		<li>There is no "right" ammount, because this depends on how much RAM your system has.</li>
 		<li>I recommend setting it around 8000, if your system has this much RAM.</li>
 		<li>If you have more than 8GB of RAM, you don't need to set this all the way to the right. Around 8000 is probably more than enough.
+	</ul>
+	<li>Copy and paste this into the "Java custom arguments" field (replacing what's there already)need</li>
+	<ul>
+		<li style="list-style-type: none;"><code>-Xmn768m -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:+CMSParallelRemarkEnabled -XX:MaxTenuringThreshold=15 -XX:MaxGCPauseMillis=30 -XX:GCPauseIntervalMillis=150 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:+UseBiasedLocking -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=10000 -XX:ParallelGCThreads=10 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled -XX:+PerfDisableSharedMem -XX:-UsePerfData</code></li>
 	</ul>
 	<li>Changes are automatically saved, so click the "X" in the top-right to exit settings (the lower "X", not the one for the whole program.)</li>
 </ul>
