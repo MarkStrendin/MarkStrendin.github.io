@@ -20,6 +20,7 @@
 			color: #707070;
 			background: #222222;
 			padding: 25px;
+			overflow: hidden;
 		}
 
 		h1 {
@@ -47,30 +48,57 @@
 
 		.avatar_image {
 			border-radius: 15px 15px 15px 15px;
+			width: 100%;
 		}
 
 		.avatar_container {
 			border-radius: 15px;
-			border: 0px solid rgba(100, 100, 100, 0.25);
-			background-color: rgba(100, 100, 100, 0.25);
+			border: 0px solid rgba(100, 100, 100, 0.5);
+			background-color: rgba(100, 100, 100, 0.5);
 			display: inline-block;
 			border-radius: 15px;
 			padding: 0;
 			margin: 0;
 			color: rgba( 255,255,255,0.5);
+			width: 300px;
 		}
 
 		.avatar_text {
-			font-size: 35px;
+			font-size: 140%;
 			font-variant: small-caps;
 
 		}
 
 		.page_container {
 			text-align: center;
-			max-width: 460px;
 			margin-left: auto;
 			margin-right: auto;
+		}
+
+		.link_icon_container {
+			display: flex;
+			flex-wrap: wrap;
+			align-items:flex-start;
+			justify-content: center;
+		}
+
+		.link_icon:hover {
+			opacity: 100%;
+		}
+
+		.link_icon {
+			color: white;
+			opacity: 50%;
+			margin: 15px;
+			max-width: 100px;
+		}
+
+		.link_icon_img {
+			font-size: 300%;
+			padding-bottom: 10px;
+		}
+
+		.link_icon_text {
 		}
 
 		</style>
@@ -85,15 +113,41 @@
 				<img src="ridley.jfif" alt="Ridley" class="avatar_image">
 				<div class="avatar_text"><b>MarkStrendin</b>.ca</div>
 			</div>
-
-			<div class="text_container">
-				<ul>
-					<li><a href="https://github.com/MarkStrendin"><i class="fa fa-github" aria-hidden="true"></i>/MarkStrendin</a></li>
-				</ul>
-				<div style="text-align: center; font-size: 50%;"><a href="minecraft/index.html"><i class="fa fa-cube" aria-hidden="true"></i>&nbsp;Minecraft Modpack</a></p></div>
-				<div style="text-align: center; font-size: 50%;"><a href="dnd/index.html"><i class="fab fa-d-and-d" aria-hidden="true"></i>&nbsp;D&D Resources</a></p></div>
-				<div style="text-align: center; font-size: 50%;"><a href="https://recipes.markstrendin.ca"><i class="fas fa-utensils" aria-hidden="true"></i></i>&nbsp;Recipes</a></p></div>
+			<br/>
+			<br/>
+			<div class="link_icon_container">
+				<div class="link_icon">
+					<a href="https://github.com/MarkStrendin">
+						<div class="link_icon_img"><i class="fa fa-github" aria-hidden="true"></i></div>
+						<div class="link_icon_text">GitHub</div>
+					</a>
+				</div>
+				<div class="link_icon">
+					<a href="minecraft/index.html">
+						<div class="link_icon_img"><i class="fa fa-cube" aria-hidden="true"></i></div>
+						<div class="link_icon_text">Minecraft Modpack</div>
+					</a>
+				</div>
+				<div class="link_icon">
+					<a href="dnd/index.html">
+						<div class="link_icon_img"><i class="fab fa-d-and-d" aria-hidden="true"></i></div>
+						<div class="link_icon_text">D&D Resources</div>
+					</a>
+				</div>
+				<div class="link_icon">
+					<a href="https://recipes.markstrendin.ca">
+						<div class="link_icon_img"><i class="fa fa-utensils" aria-hidden="true"></i></div>
+						<div class="link_icon_text">Recipes</div>
+					</a>
+				</div>
+				<div class="link_icon">
+					<a href="https://writeups.markstrendin.ca">
+						<div class="link_icon_img"><i class="fa fa-microchip"></i></div>
+						<div class="link_icon_text">Cybersecurity Writeups</div>
+					</a>
+				</div>
 			</div>
+
 		</div>
 		<!-- 
 			Particles.js by Vincent Garreau
