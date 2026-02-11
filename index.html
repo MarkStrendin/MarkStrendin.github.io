@@ -95,10 +95,16 @@
 
 		.link_icon_img {
 			font-size: 300%;
-			padding-bottom: 10px;
+			padding-bottom: 0px;
 		}
 
 		.link_icon_text {
+			font-weight: bold;
+		}
+
+		.main_menu_svg {
+			width: 100px;
+			filter: invert();
 		}
 
 		@media screen and (max-width: 1000px) {	
@@ -139,7 +145,6 @@
 		}
 
 		</style>
-		<script src="https://kit.fontawesome.com/0891dfb78b.js" crossorigin="anonymous"></script>
 		<title>MarkStrendin.ca</title>
 	</head>
 	<body>
@@ -154,32 +159,32 @@
 			<br/>
 			<div class="link_icon_container">
 				<div class="link_icon">
-					<a href="https://github.com/MarkStrendin">
-						<div class="link_icon_img"><i class="fa fa-github" aria-hidden="true"></i></div>
-						<div class="link_icon_text">GitHub</div>
-					</a>
-				</div>
-				<div class="link_icon">
 					<a href="minecraft/index.html">
-						<div class="link_icon_img"><i class="fa fa-cube" aria-hidden="true"></i></div>
+						<div class="link_icon_img"><img class="main_menu_svg" src="img/cube.svg"></div>
 						<div class="link_icon_text">Minecraft Modpack</div>
 					</a>
 				</div>
 				<div class="link_icon">
 					<a href="dnd/index.html">
-						<div class="link_icon_img"><i class="fab fa-d-and-d" aria-hidden="true"></i></div>
+						<div class="link_icon_img"><img class="main_menu_svg" src="img/dnd.svg"></div>
 						<div class="link_icon_text">D&D Resources</div>
 					</a>
 				</div>
 				<div class="link_icon">
+					<a href="deltagreen/index.html">
+						<div class="link_icon_img"><img class="main_menu_svg" src="img/triangle.svg"></div>
+						<div class="link_icon_text">Delta Green Resources</div>
+					</a>
+				</div>
+				<div class="link_icon">
 					<a href="https://recipes.markstrendin.ca">
-						<div class="link_icon_img"><i class="fa fa-utensils" aria-hidden="true"></i></div>
+						<div class="link_icon_img"><img class="main_menu_svg" src="img/food.svg"></div>
 						<div class="link_icon_text">Recipes</div>
 					</a>
 				</div>
 				<div class="link_icon">
 					<a href="https://writeups.markstrendin.ca">
-						<div class="link_icon_img"><i class="fa fa-microchip"></i></div>
+						<div class="link_icon_img"><img class="main_menu_svg" src="img/cyber.svg"></div>
 						<div class="link_icon_text">Cybersecurity Writeups</div>
 					</a>
 				</div>
